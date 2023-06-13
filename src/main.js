@@ -1,23 +1,43 @@
-/*import {sum} from "./calc.js";
-//import fs from "fs";
-import {readFileSync} from "node:fs";
-let filePath= "C:/Users/91702/Desktop/WPT MODULE/programs/day/package.json";
-let fileData=readFileSync(filePath);
-let fileData=readFileSync(filePath, {encoding:"utf-8"});
-console.log(fileData);*/
-/*import { readFileSync, writeFileSync } from "node:fs";
-let filePath= "C:/Users/91702/Desktop/output.txt";
-//let data="hello world good morning";
-let data =`Save your favorite articles to read
- offline, sync your reading lists across devices 
- and customize your reading experience with the
-  official Wikipedia app.`;
-writeFileSync(filePath, data);
-console.log("write successfully.......!!!!!!!");*/
+/* async function sum(n1,n2){
+  return n1+n2;
+}
+let op=sum(1,1);
+console.log(op);  */
 
-console.log("hello world 1");
-setTimeout(() =>console.log("hello world 2"),1000)
-console.log("hello world 3");
-console.log("hello world 4");
-console.log("hello world 5");
-console.log("hello world 6");
+/*async function hello(){
+ console.log("hello 1");
+}
+hello();
+
+console.log("hello 2");
+
+console.log("hello 3");         
+
+/*function hello(){
+ console.log("hello 1");
+}
+console.log("hello 2");
+hello();
+console.log("hello 3"); */
+
+/*function hello(){
+ console.log("hello 1");
+}
+console.log("hello 2");
+hello();
+console.log("hello 3"); */
+
+/*async function sum(n1,n2){
+  return n1+n2;
+}
+let result=sum(8,1);
+console.log(result) ;             /*op-> promice{2}*/
+
+async function sum(n1,n2){
+  return n1+n2;
+}
+async function main(){
+let result = await sum(1,3);
+console.log(resilt) 
+}
+main();
